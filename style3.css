@@ -1,0 +1,99 @@
+
+*{
+    margin: 0px;
+    outline: 0px;
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    background-image: url('5.jpg');
+    background-size: cover;
+  
+    
+}
+.page{
+    width: 30%;
+    height: 85vh;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 3px solid aqua;
+    background-image: url('7.jpg');
+    /* background: transparent; */
+   
+}
+.User{
+    padding: 15px;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    
+}
+input[type=text]{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 23%;
+    border-radius: 20px;
+    padding: 20px;
+}
+input[type=text]::placeholder{
+    color:black;
+}
+input[type=Password]{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 23%;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;            
+}
+input[type=Password]::placeholder{
+    color:black;
+}
+
+input[type=ln]{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 23%;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    
+    
+}
+input[type=ln]::placeholder{
+    color:black;
+}
+input[type=nw]{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 23%;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+input[type=nw]::placeholder{
+    color:black;
+}
+input[type=text]:hover{
+    background-color:red;
+}
+input[type=Password]:hover{
+    background-color: red;
+}
+input[type=ln]:hover{
+    background-color: red;
+}
+input[type=nw]:hover{
+    background-color: red;
+}
+:hover{
+    background-image: url('7.jpg');
+}
